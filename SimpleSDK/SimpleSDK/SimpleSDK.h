@@ -14,3 +14,5 @@ FOUNDATION_EXPORT const unsigned char SimpleSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <SimpleSDK/PublicHeader.h>
 
 #import "TemplateManger.h"
+
+#build脚本git命令测试
