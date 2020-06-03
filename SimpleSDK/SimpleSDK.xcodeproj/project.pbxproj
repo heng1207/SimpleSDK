@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0938DD93244474510022A9C0 /* Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0938DD94244474510022A9C0 /* Build configuration list for PBXAggregateTarget "Universal" */;
+			buildPhases = (
+			);
+			dependencies = (
+				0938DD98244474730022A9C0 /* PBXTargetDependency */,
+			);
+			name = Universal;
+			productName = Universal;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		090E14C524810AA5009F0857 /* archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 090E14C424810AA5009F0857 /* archive.sh */; };
+		090E14C724811AB7009F0857 /* xxx.sh in Resources */ = {isa = PBXBuildFile; fileRef = 090E14C624811AB7009F0857 /* xxx.sh */; };
+		090E14C9248125BC009F0857 /* prepare_fw.sh in Resources */ = {isa = PBXBuildFile; fileRef = 090E14C8248125BC009F0857 /* prepare_fw.sh */; };
+		0938DD69244468A60022A9C0 /* SimpleSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0938DD67244468A60022A9C0 /* SimpleSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0938DD8924446C100022A9C0 /* TemplateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0938DD8724446C100022A9C0 /* TemplateView.h */; };
+		0938DD8A24446C100022A9C0 /* TemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0938DD8824446C100022A9C0 /* TemplateView.m */; };
+		0938DD8D24446E080022A9C0 /* TemplateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0938DD8B24446E080022A9C0 /* TemplateViewController.h */; };
+		0938DD8E24446E080022A9C0 /* TemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0938DD8C24446E080022A9C0 /* TemplateViewController.m */; };
+		0938DD9124446EFB0022A9C0 /* TemplateLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 0938DD8F24446EFB0022A9C0 /* TemplateLogic.h */; };
+		0938DD9224446EFB0022A9C0 /* TemplateLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 0938DD9024446EFB0022A9C0 /* TemplateLogic.m */; };
+		0938DDC324447EF30022A9C0 /* TemplateManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0938DDC124447EF30022A9C0 /* TemplateManger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0938DDC424447EF30022A9C0 /* TemplateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0938DDC224447EF30022A9C0 /* TemplateManger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0938DD97244474730022A9C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0938DD5B244468A60022A9C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0938DD63244468A60022A9C0;
+			remoteInfo = SimpleSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090E14C424810AA5009F0857 /* archive.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = archive.sh; sourceTree = "<group>"; };
+		090E14C624811AB7009F0857 /* xxx.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = xxx.sh; sourceTree = "<group>"; };
+		090E14C8248125BC009F0857 /* prepare_fw.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = prepare_fw.sh; sourceTree = "<group>"; };
+		0938DD64244468A60022A9C0 /* SimpleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0938DD67244468A60022A9C0 /* SimpleSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleSDK.h; sourceTree = "<group>"; };
+		0938DD68244468A60022A9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0938DD8724446C100022A9C0 /* TemplateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateView.h; sourceTree = "<group>"; };
+		0938DD8824446C100022A9C0 /* TemplateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateView.m; sourceTree = "<group>"; };
+		0938DD8B24446E080022A9C0 /* TemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateViewController.h; sourceTree = "<group>"; };
+		0938DD8C24446E080022A9C0 /* TemplateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateViewController.m; sourceTree = "<group>"; };
+		0938DD8F24446EFB0022A9C0 /* TemplateLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateLogic.h; sourceTree = "<group>"; };
+		0938DD9024446EFB0022A9C0 /* TemplateLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateLogic.m; sourceTree = "<group>"; };
+		0938DDC124447EF30022A9C0 /* TemplateManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateManger.h; sourceTree = "<group>"; };
+		0938DDC224447EF30022A9C0 /* TemplateManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateManger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0938DD61244468A60022A9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0938DD5A244468A60022A9C0 = {
+			isa = PBXGroup;
+			children = (
+				090E14C624811AB7009F0857 /* xxx.sh */,
+				090E14C424810AA5009F0857 /* archive.sh */,
+				090E14C8248125BC009F0857 /* prepare_fw.sh */,
+				0938DD66244468A60022A9C0 /* SimpleSDK */,
+				0938DD65244468A60022A9C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0938DD65244468A60022A9C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0938DD64244468A60022A9C0 /* SimpleSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0938DD66244468A60022A9C0 /* SimpleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0938DD862444699D0022A9C0 /* Controller */,
+				0938DD7F2444699D0022A9C0 /* Depend */,
+				0938DD842444699D0022A9C0 /* Logic */,
+				0938DD822444699D0022A9C0 /* Model */,
+				0938DD812444699D0022A9C0 /* Reource */,
+				0938DD802444699D0022A9C0 /* Service */,
+				0938DD832444699D0022A9C0 /* ThirdModule */,
+				0938DD852444699D0022A9C0 /* View */,
+				0938DD67244468A60022A9C0 /* SimpleSDK.h */,
+				0938DD68244468A60022A9C0 /* Info.plist */,
+			);
+			path = SimpleSDK;
+			sourceTree = "<group>";
+		};
+		0938DD7F2444699D0022A9C0 /* Depend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Depend;
+			sourceTree = "<group>";
+		};
+		0938DD802444699D0022A9C0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0938DD812444699D0022A9C0 /* Reource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reource;
+			sourceTree = "<group>";
+		};
+		0938DD822444699D0022A9C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0938DD832444699D0022A9C0 /* ThirdModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdModule;
+			sourceTree = "<group>";
+		};
+		0938DD842444699D0022A9C0 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				0938DD8F24446EFB0022A9C0 /* TemplateLogic.h */,
+				0938DD9024446EFB0022A9C0 /* TemplateLogic.m */,
+				0938DDC124447EF30022A9C0 /* TemplateManger.h */,
+				0938DDC224447EF30022A9C0 /* TemplateManger.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		0938DD852444699D0022A9C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0938DD8724446C100022A9C0 /* TemplateView.h */,
+				0938DD8824446C100022A9C0 /* TemplateView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0938DD862444699D0022A9C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0938DD8B24446E080022A9C0 /* TemplateViewController.h */,
+				0938DD8C24446E080022A9C0 /* TemplateViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0938DD5F244468A60022A9C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0938DDC324447EF30022A9C0 /* TemplateManger.h in Headers */,
+				0938DD69244468A60022A9C0 /* SimpleSDK.h in Headers */,
+				0938DD8D24446E080022A9C0 /* TemplateViewController.h in Headers */,
+				0938DD8924446C100022A9C0 /* TemplateView.h in Headers */,
+				0938DD9124446EFB0022A9C0 /* TemplateLogic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0938DD63244468A60022A9C0 /* SimpleSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0938DD6C244468A60022A9C0 /* Build configuration list for PBXNativeTarget "SimpleSDK" */;
+			buildPhases = (
+				0938DD5F244468A60022A9C0 /* Headers */,
+				0938DD60244468A60022A9C0 /* Sources */,
+				0938DD61244468A60022A9C0 /* Frameworks */,
+				0938DD62244468A60022A9C0 /* Resources */,
+				0938DD99244477A70022A9C0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSDK;
+			productName = SimpleSDK;
+			productReference = 0938DD64244468A60022A9C0 /* SimpleSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0938DD5B244468A60022A9C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = heng;
+				TargetAttributes = {
+					0938DD63244468A60022A9C0 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					0938DD93244474510022A9C0 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 0938DD5E244468A60022A9C0 /* Build configuration list for PBXProject "SimpleSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0938DD5A244468A60022A9C0;
+			productRefGroup = 0938DD65244468A60022A9C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0938DD63244468A60022A9C0 /* SimpleSDK */,
+				0938DD93244474510022A9C0 /* Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0938DD62244468A60022A9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090E14C524810AA5009F0857 /* archive.sh in Resources */,
+				090E14C724811AB7009F0857 /* xxx.sh in Resources */,
+				090E14C9248125BC009F0857 /* prepare_fw.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0938DD99244477A70022A9C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh ../SimpleSDK/archive.sh";
+			shellScript = "#..SimpleSDK/archive.sh\n#../SimpleSDK/xxx.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0938DD60244468A60022A9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0938DD8E24446E080022A9C0 /* TemplateViewController.m in Sources */,
+				0938DDC424447EF30022A9C0 /* TemplateManger.m in Sources */,
+				0938DD9224446EFB0022A9C0 /* TemplateLogic.m in Sources */,
+				0938DD8A24446C100022A9C0 /* TemplateView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0938DD98244474730022A9C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0938DD63244468A60022A9C0 /* SimpleSDK */;
+			targetProxy = 0938DD97244474730022A9C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0938DD6A244468A60022A9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0938DD6B244468A60022A9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0938DD6D244468A60022A9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SimpleSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 2;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.SimpleSDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0938DD6E244468A60022A9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SimpleSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.SimpleSDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0938DD95244474510022A9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0938DD96244474510022A9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0938DD5E244468A60022A9C0 /* Build configuration list for PBXProject "SimpleSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0938DD6A244468A60022A9C0 /* Debug */,
+				0938DD6B244468A60022A9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0938DD6C244468A60022A9C0 /* Build configuration list for PBXNativeTarget "SimpleSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0938DD6D244468A60022A9C0 /* Debug */,
+				0938DD6E244468A60022A9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0938DD94244474510022A9C0 /* Build configuration list for PBXAggregateTarget "Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0938DD95244474510022A9C0 /* Debug */,
+				0938DD96244474510022A9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0938DD5B244468A60022A9C0 /* Project object */;
+}
