@@ -5,15 +5,9 @@ function showMsg()
   echo -e "\033[32m$1\033[0m"
 }
 
-lstRepo=(
-  SimpleSDK
-)
-for repo in ${lstRepo[@]}
-do
-  cd ../$repo
-  showMsg '开始git pull '$repo
-  git pull
-done
+cd ../$SimpleSDK
+showMsg '开始git pull SimpleSDK'
+git pull
 
 
 
