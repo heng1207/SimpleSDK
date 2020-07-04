@@ -22,7 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		090E14C524810AA5009F0857 /* archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 090E14C424810AA5009F0857 /* archive.sh */; };
-		090E14C724811AB7009F0857 /* xxx.sh in Resources */ = {isa = PBXBuildFile; fileRef = 090E14C624811AB7009F0857 /* xxx.sh */; };
+		090E14C724811AB7009F0857 /* compile.sh in Resources */ = {isa = PBXBuildFile; fileRef = 090E14C624811AB7009F0857 /* compile.sh */; };
 		090E14C9248125BC009F0857 /* prepare_fw.sh in Resources */ = {isa = PBXBuildFile; fileRef = 090E14C8248125BC009F0857 /* prepare_fw.sh */; };
 		0938DD69244468A60022A9C0 /* SimpleSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0938DD67244468A60022A9C0 /* SimpleSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0938DD8924446C100022A9C0 /* TemplateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0938DD8724446C100022A9C0 /* TemplateView.h */; };
@@ -47,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		090E14C424810AA5009F0857 /* archive.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = archive.sh; sourceTree = "<group>"; };
-		090E14C624811AB7009F0857 /* xxx.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = xxx.sh; sourceTree = "<group>"; };
+		090E14C624811AB7009F0857 /* compile.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = compile.sh; sourceTree = "<group>"; };
 		090E14C8248125BC009F0857 /* prepare_fw.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = prepare_fw.sh; sourceTree = "<group>"; };
 		0938DD64244468A60022A9C0 /* SimpleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0938DD67244468A60022A9C0 /* SimpleSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleSDK.h; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		0938DD5A244468A60022A9C0 = {
 			isa = PBXGroup;
 			children = (
-				090E14C624811AB7009F0857 /* xxx.sh */,
+				090E14C624811AB7009F0857 /* compile.sh */,
 				090E14C424810AA5009F0857 /* archive.sh */,
 				090E14C8248125BC009F0857 /* prepare_fw.sh */,
 				0938DD66244468A60022A9C0 /* SimpleSDK */,
@@ -252,7 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090E14C524810AA5009F0857 /* archive.sh in Resources */,
-				090E14C724811AB7009F0857 /* xxx.sh in Resources */,
+				090E14C724811AB7009F0857 /* compile.sh in Resources */,
 				090E14C9248125BC009F0857 /* prepare_fw.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +274,8 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = "/bin/sh ../SimpleSDK/archive.sh";
-			shellScript = "#..SimpleSDK/archive.sh\n#../SimpleSDK/xxx.sh\n";
+			shellPath = /bin/sh;
+			shellScript = "#../SimpleSDK/archive.sh\n#../SimpleSDK/compile.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

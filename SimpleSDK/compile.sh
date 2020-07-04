@@ -1,3 +1,22 @@
+clear
+
+function showMsg()
+{
+  echo -e "\033[32m$1\033[0m"
+}
+
+lstRepo=(
+  SimpleSDK
+)
+for repo in ${lstRepo[@]}
+do
+  cd ../$repo
+  showMsg '开始git pull '$repo
+  git pull
+done
+
+
+
 UNIVERSAL_OUTPUTFOLDER=../SimpleSDK/Output/
 
 # 创建输出目录，并删除之前的framework文件
